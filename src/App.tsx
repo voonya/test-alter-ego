@@ -9,7 +9,7 @@ import { PROJECT_REPO_NAME } from './common';
 function App() {
   return (
     <div className='App'>
-      <BrowserRouter basename={`${PROJECT_REPO_NAME}`}>
+      <BrowserRouter basename={`/${PROJECT_REPO_NAME}`}>
         <RouterRoutes>
           <Route path={Routes.HOME} element={<HomePage />} />
           <Route path={Routes.NEWS} element={<NewsPage />} />
