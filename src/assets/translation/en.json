@@ -1,0 +1,10 @@
+{
+    "test": "hello",
+    "language": {
+        "en": "English",
+        "uk": "Ukrainian"
+    },
+    "languagePicker": {
+        "label": "Language"
+    }
+}
