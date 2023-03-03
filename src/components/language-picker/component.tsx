@@ -1,31 +1,45 @@
-import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select, { SelectChangeEvent } from '@mui/material/Select';
-import { useState } from 'react';
+import { useContext } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Language } from '../../common';
+import { Language } from '@/common';
+import { LanguageContext, ILanguageContext } from '@/context';
 import s from './styles.module.scss';
+import variables from '@/variables.module.scss';
 
 const LanguagePicker = () => {
-  const { t, i18n } = useTranslation();
-  const [language, setLanguage] = useState(Language.ENG);
+  const { t } = useTranslation();
+  const { language, setLanguage } = useContext(LanguageContext) as ILanguageContext;
 
   const handleChange = (event: SelectChangeEvent) => {
     const pickedLanguage = event.target.value as Language;
     setLanguage(pickedLanguage);
-    i18n.changeLanguage(pickedLanguage);
   };
 
   return (
-    <FormControl fullWidth className={s.wrapper}>
-      <InputLabel id='language-select-label'>{t('languagePicker.label')}</InputLabel>
+    <FormControl className={s.wrapper} sx={{ m: 1 }}>
       <Select
-        labelId='demo-simple-select-label'
         id='language-select'
         value={language}
-        label={t('languagePicker.label')}
         onChange={handleChange}
+        sx={{
+          fontSize: 12,
+          color: variables.color,
+          '.MuiOutlinedInput-notchedOutline': {
+            borderColor: '#fff',
+          },
+          '&.Mui-focused .MuiOutlinedInput-notchedOutline': {
+            borderColor: '#fff',
+          },
+          '&:hover .MuiOutlinedInput-notchedOutline': {
+            borderColor: '#fff',
+          },
+          '.MuiSvgIcon-root ': {
+            fill: 'white !important',
+          },
+        }}
+        inputProps={{ 'aria-label': 'Without label' }}
       >
         <MenuItem value={Language.ENG}>{t('language.en')}</MenuItem>
         <MenuItem value={Language.UKR}>{t('language.uk')}</MenuItem>

@@ -1,0 +1,13 @@
+$text_color: #ffffff;
+$text_color_dark: #000;
+$danger: #ce1d1d;
+$bg_light: #5c6ab2;
+$bg_dark: #2b2d38;
+
+$spaces_sm: 10px;
+$spaces_md: 15px;
+$spaces_lg: 25px;
+
+:export {
+    color: $text_color;
+}

@@ -32,7 +32,8 @@
 
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
-
+    "import/no-relative-parent-imports": "warn",
+    "react/display-name": "warn",
     "prettier/prettier": [
       "warn",
       {

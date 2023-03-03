@@ -6,5 +6,30 @@
     },
     "languagePicker": {
         "label": "Language"
+    },
+    "nav": {
+        "news": "News",
+        "profile": "Profile",
+        "logoutBtn": "Logout",
+        "loginBtn": "Login"
+    },
+    "login": {
+        "usernameLabel": "Username",
+        "passwordLabel": "Password",
+        "submitBtn": "Login",
+        "formTitle": "Login",
+        "incorrectDataError": "Incorrect username or password"
+    },
+    "logout": {
+        "alreadyLogoutError": "Already logout"
+    },
+    "news": {
+        "loadMoreBtn": "Load more"
+    },
+    "article": {
+        "deleteBtn": "Delete"
+    },
+    "footer": {
+        "contactLabel": "Contact us"
     }
 }

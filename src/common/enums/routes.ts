@@ -1,7 +1,8 @@
-enum Routes {
+enum Route {
   HOME = '/',
   NEWS = '/news',
   PROFILE = '/profile',
+  LOGIN = '/login',
 }
 
-export { Routes };
+export { Route };

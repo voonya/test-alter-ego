@@ -1,0 +1,14 @@
+@import "/src/variables.module.scss";
+
+.wrapper {
+    padding: $spaces_sm $spaces_md;
+    border: 1px solid #fff;
+    margin: $spaces_md 0;
+    background-color: $bg_dark;
+
+    h3 span {
+        &::after{
+            content: ") ";
+        }
+    }
+}

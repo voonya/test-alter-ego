@@ -1,0 +1,21 @@
+@import '/src/variables.module.scss'; 
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: $spaces_sm $spaces_md;
+    color: $text_color;
+}
+
+.sm {
+    font-size: 15px;
+}
+
+.md {
+    font-size: 22px;
+}
+
+.lg {
+    font-size: 30px;
+}

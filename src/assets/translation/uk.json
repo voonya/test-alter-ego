@@ -6,5 +6,30 @@
     },
     "languagePicker": {
         "label": "Мова"
+    },
+    "nav": {
+        "news": "Новини",
+        "profile": "Профіль",
+        "logoutBtn": "Вийти",
+        "loginBtn": "Увійти"
+    },
+    "login": {
+        "usernameLabel": "Ім'я користувача",
+        "passwordLabel": "Пароль",
+        "submitBtn": "Увійти",
+        "formTitle": "Увійти",
+        "incorrectDataError": "Ім'я користувача або пароль введено неправильно"
+    },
+    "logout": {
+        "alreadyLogoutError": "Вже вийшли"
+    },
+    "news": {
+        "loadMoreBtn": "Більше"
+    },
+    "article": {
+        "deleteBtn": "Видалити"
+    },
+    "footer": {
+        "contactLabel": "Зворотній зв'язок"
     }
 }

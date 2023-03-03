@@ -1,0 +1,28 @@
+@import '/src/variables.module.scss';
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    background-color: $bg_light;
+    padding: $spaces_sm 0;
+}
+
+.navWrapper {
+    flex: 1;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.navList {
+    list-style: none;
+    padding: 0 $spaces_md;
+    display: flex;
+
+    gap: $spaces_md;
+}
+
+.activeLink {
+    border-bottom: 1px solid $text_color;
+}

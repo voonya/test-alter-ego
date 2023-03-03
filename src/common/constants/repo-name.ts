@@ -1,3 +1,5 @@
 const PROJECT_REPO_NAME = 'test-alter-ego';
 
-export { PROJECT_REPO_NAME };
+const BASENAME = PROJECT_REPO_NAME;
+
+export { BASENAME, PROJECT_REPO_NAME };
