@@ -30,7 +30,7 @@ const LoginForm = () => {
 
     dispatch(loginUser({ username, password }))
       .unwrap()
-      .then((res) => {
+      .then(() => {
         navigate(Route.HOME);
       })
       .catch(console.log);

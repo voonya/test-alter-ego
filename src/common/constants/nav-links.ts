@@ -6,7 +6,7 @@ interface INavLink {
   private: boolean;
 }
 
-const NAV_LINKS = [
+const NAV_LINKS: INavLink[] = [
   {
     translateKey: 'nav.news',
     path: Route.NEWS,
