@@ -1,4 +1,4 @@
-import { Route } from '../enums';
+import { Route } from '@/common';
 
 interface INavLink {
   translateKey: string;

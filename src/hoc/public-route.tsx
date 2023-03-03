@@ -1,6 +1,6 @@
-import { Route } from '../common';
+import { Route } from '@/common';
 import { Navigate, useLocation } from 'react-router-dom';
-import { useAppSelector } from '../store';
+import { useAppSelector } from '@/store';
 
 interface IPublicRouteProps {
   children: JSX.Element;

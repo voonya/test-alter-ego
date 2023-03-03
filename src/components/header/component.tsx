@@ -1,11 +1,9 @@
 import { NAV_LINKS } from '@/common';
-import { LanguagePicker } from '../language-picker';
-import { Link, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { Logo } from '../logo';
+import { Logo, LanguagePicker } from '@/components';
 import Container from '@mui/material/Container';
 import { Button } from '@mui/material';
-import { authService } from '@/services';
 import { useNavigate } from 'react-router-dom';
 import { Route } from '@/common';
 import { useAppSelector, useAppDispatch } from '@/store';

@@ -1,4 +1,4 @@
-import { Logo } from '../logo';
+import { Logo } from '@/components';
 import { Container } from '@mui/material';
 import { useTranslation } from 'react-i18next';
 import s from './styles.module.scss';

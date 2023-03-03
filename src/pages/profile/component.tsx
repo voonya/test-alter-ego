@@ -2,12 +2,12 @@ import { Layout } from '@/layouts';
 import { Container } from '@mui/material';
 import s from './styles.module.scss';
 
-const HomePage = () => {
+const ProfilePage = () => {
   return (
     <Layout>
       <Container>
-        <div className={s.homeWrapper}>
-          <h2>Home Page</h2>
+        <div className={s.wrapper}>
+          <h2>Profile Page</h2>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut labore sunt possimus
             cumque, quo omnis. Cum eligendi ipsum, aspernatur velit ducimus dolores explicabo
@@ -61,4 +61,4 @@ const HomePage = () => {
   );
 };
 
-export { HomePage };
+export { ProfilePage };

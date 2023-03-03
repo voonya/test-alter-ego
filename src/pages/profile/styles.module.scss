@@ -1,0 +1,7 @@
+@import '/src/variables.module.scss';
+
+.wrapper {
+    color: $text_color_dark;
+    text-align: justify;
+    padding: $spaces_md 0;
+}

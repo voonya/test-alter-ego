@@ -1,5 +1,5 @@
 import { memo } from 'react';
-import { IArticle } from '../../common';
+import { IArticle } from '@/common';
 import s from './styles.module.scss';
 import { Button } from '@mui/material';
 import { useTranslation } from 'react-i18next';

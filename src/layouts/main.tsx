@@ -1,5 +1,5 @@
 import { ReactNode } from 'react';
-import { Header, Footer } from '../components';
+import { Header, Footer } from '@/components';
 import s from './styles.module.scss';
 
 interface ILayoutProps {

@@ -38,8 +38,6 @@ const logoutUser = createAsyncThunk(AuthAction.LOGOUT, async (_, { rejectWithVal
 });
 
 const getUser = createAsyncThunk(AuthAction.GET_USER, async (_) => {
-  console.log('get user');
-
   const user = await authService.getUser();
 
   return user;

@@ -3,7 +3,7 @@ import CircularProgress from '@mui/joy/CircularProgress';
 import { Layout } from '@/layouts';
 import { newsService } from '@/services';
 import { IArticle } from '@/common';
-import { Article } from '../components';
+import { Article } from '@/components';
 import { Button } from '@mui/material';
 import { useTranslation } from 'react-i18next';
 import { Container } from '@mui/material';
@@ -48,7 +48,7 @@ const NewsPage = () => {
   return (
     <Layout>
       <Container>
-        <div className={s.newsWrapper}>
+        <div className={s.wrapper}>
           {news.length === 0 && <div>No articles</div>}
           <div>
             {news.map((article) => (
